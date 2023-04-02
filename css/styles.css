@@ -1,42 +1,212 @@
-body {
-    background-color: #FFFFFF;
-    color: #2E2F42;
+:root {
+
+    --main-txt-clr: #2E2F42;
+    --navy-blue-clr: #2E2F42;
+    --bcg-clr: #E5E5E5;
+    --white-clr: #FFFFFF;
+    --iris-clr: #4D5AE5;
+    --ocean-clr: #404BBF;
+    --green-clr: #31D0AA;
+    --slate-clr: #434455;
+    --light-slate-clr: #8E8F99;
+    --accent-clr: #E7E9FC;
+    --navy-blue-modal-clr: #F4F4FD;
+    --grey-clr: #F4F4FD;
+    --dairy-clr: #FCFCFC;
+
+/**
+  |============================
+  | Fonts
+  |============================
+*/
+
+    --main-font: 'Roboto', sans-serif;
+    --secondari-font: 'Raleway', sans-serif;
+
+
+
 }
-.logo-web {
-    color: #4D5AE5;
+.link {
+    text-decoration: none;
 }
-ul {
+.list {
     list-style: none;
 }
-/* site nav */
-.site-nav a {
-    color: #2E2F42;
+/**
+  |============================
+  | body
+  |============================
+*/
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-clr);
+
 }
-.address-contacts a {
-   color: #434455; 
+/**
+  |============================
+  | header
+  |============================
+*/
+.logo {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris-clr);
 }
-/* hero-section */
-.hero-section {
-    background-color: #2E2F42;
-    color: #FFFFFF;
+.logo-dark {
+color: var(--navy-blue-clr);
 }
-.btn {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+.logo-light {
+color: var(--navy-blue-modal-clr)
 }
-/* section 1 */
-.section-text {
-    color: #434455;
+.heder-item :hover,
+.heder-item :focus {
+  font-weight: 500;
+  color: var(--ocean-clr);
 }
-/* team section */
-.team-section {
-    background-color: #F4F4FD;
+
+
+.header {
 }
-/* footer */
-footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
+.header-nav {
 }
-.studio {
-    color: #F4F4FD;
+.header-list {
+}
+.heder-item {
+  font-weight: 500;
+}
+.contacts-list :hover,
+.contacts-list :focus {
+  
+  color: var(--ocean-clr);
+}
+.contacts {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+  color: var(--slate-clr);
+}
+.contacts-item {
+}
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.hero-bcg {
+    background-color: var(--navy-blue-clr);
+}
+.hero-header {
+
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--white-clr);
+}
+.btn-color {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: var(--white-clr);
+cursor: pointer;
+background-color: var(--iris-clr)
+
+}
+.btn-color:hover,
+.btn-color:focus {
+  background-color:var(--ocean-clr)
+}
+.skills-list {
+}
+.skills-header {
+ 
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--navy-blue-clr);
+}
+.skills-text {
+
+color: var(--slate-clr);
+}
+/**
+  |============================
+  | section 2
+  |============================
+*/
+.bcg-img {
+    background-color: var(--white-clr)
+}
+.header-work {
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navy-blue-clr);
+}
+
+/**
+  |============================
+  | section 3
+  |============================
+*/
+.bcg-team {
+    background-color: var(--bcg-clr);
+}
+.header-team {
+
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navy-blue-clr);
+}
+.team-name {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--navy-blue-clr);
+}
+.team-prof {
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--slate-clr);
+}
+.footer {
+  background-color: var(--navy-blue-clr);
+}
+.footer-txt {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blue-modal-clr);
 }
