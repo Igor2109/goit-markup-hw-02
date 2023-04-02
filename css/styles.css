@@ -76,13 +76,6 @@ color: var(--navy-blue-modal-clr)
   color: var(--ocean-clr);
 }
 
-
-.header {
-}
-.header-nav {
-}
-.header-list {
-}
 .heder-item {
   font-weight: 500;
 }
@@ -100,8 +93,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 
   color: var(--slate-clr);
-}
-.contacts-item {
 }
 /**
   |============================
@@ -134,7 +125,30 @@ background-color: var(--iris-clr)
 .btn-color:focus {
   background-color:var(--ocean-clr)
 }
-.skills-list {
+/**
+  |============================
+  | Button filtr
+  |============================
+*/
+.btn:hover,
+.btn:focus
+ {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+background-color: var(--ocean-clr);
+color: var(--white-clr);
+cursor: pointer;
+}
+.btn {
+  color: var(--iris-clr);
+  background-color: var(--navy-blue-modal-clr);
 }
 .skills-header {
  
