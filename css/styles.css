@@ -38,13 +38,14 @@
   |============================
 */
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue-clr);
+  color: var(--slate-clr);
+  background-color: var(--white-clr);
 
 }
 /**
@@ -53,7 +54,7 @@ body {
   |============================
 */
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -78,10 +79,14 @@ color: var(--navy-blue-modal-clr)
 
 .heder-item {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-clr);
 }
 .contacts-list :hover,
 .contacts-list :focus {
-  
+  font-style: normal;
   color: var(--ocean-clr);
 }
 .contacts {
@@ -106,16 +111,17 @@ letter-spacing: 0.02em;
 
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--white-clr);
 }
 .btn-color {
-
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.04em;
 color: var(--white-clr);
 cursor: pointer;
 background-color: var(--iris-clr)
@@ -123,6 +129,7 @@ background-color: var(--iris-clr)
 }
 .btn-color:hover,
 .btn-color:focus {
+  font-family: inherit;
   background-color:var(--ocean-clr)
 }
 /**
@@ -174,7 +181,7 @@ color: var(--slate-clr);
 
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -187,7 +194,7 @@ color: var(--navy-blue-clr);
   |============================
 */
 .bcg-team {
-    background-color: var(--bcg-clr);
+    background-color: var(--navy-blue-modal-clr)
 }
 .header-team {
 
