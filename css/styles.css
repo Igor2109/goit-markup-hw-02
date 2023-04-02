@@ -73,13 +73,13 @@ color: var(--navy-blue-clr);
   font-family: 'Raleway',sans-serif;
 color: var(--navy-blue-modal-clr)
 }
-.heder-item :hover,
-.heder-item :focus {
+.header-item :hover,
+.header-item :focus {
   font-weight: 500;
   color: var(--ocean-clr);
 }
 
-.heder-item {
+.header-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -144,7 +144,7 @@ background-color: var(--iris-clr)
 .btn:hover,
 .btn:focus
  {
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -199,13 +199,13 @@ color: var(--navy-blue-clr);
 */
 .bcg-team {
   line-height: 1.11;
-    background-color:var(--white-clr);
+    background-color:var(--navy-blue-modal-clr);
 }
 .header-team {
 
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
