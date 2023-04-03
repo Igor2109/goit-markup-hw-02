@@ -144,20 +144,21 @@ background-color: var(--iris-clr)
 .btn:hover,
 .btn:focus
  {
-  font-family:"Roboto", sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
+ 
 background-color: var(--ocean-clr);
 color: var(--white-clr);
 cursor: pointer;
 }
 .btn {
+  font-family:"Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   color: var(--iris-clr);
   background-color: var(--navy-blue-modal-clr);
 }
@@ -199,7 +200,7 @@ color: var(--navy-blue-clr);
 */
 .bcg-team {
   line-height: 1.11;
-    background-color:var(--white-clr)
+    background-color:var(--navy-blue-modal-clr)
 }
 .header-team {
 
