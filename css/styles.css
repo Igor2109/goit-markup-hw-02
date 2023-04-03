@@ -200,7 +200,10 @@ color: var(--navy-blue-clr);
 */
 .bcg-team {
   line-height: 1.11;
-    background-color:var(--white-clr)
+    background-color:var(--navy-blue-modal-clr)
+}
+.bcg-img {
+  background-color: var(--white-clr);
 }
 .header-team {
 
